@@ -1,0 +1,13 @@
+
+POST http://localhost:3001/api/blogs
+Content-Type: application/json
+
+
+
+{
+    "title":"parque",
+    "author":"lola",
+    "url":"https://bogs-chidos-lola",
+    "likes":70,
+    "userId":"6688a5e68fc8e00a6c03da4e"
+}
