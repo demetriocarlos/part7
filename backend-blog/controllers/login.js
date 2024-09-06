@@ -3,6 +3,7 @@ const jwt = require('jsonwebtoken')
 const bcrypt = require('bcryptjs')
 const loginRouter = require('express').Router()
 const User = require('../models/user')
+require('dotenv').config()
 
 
 loginRouter.post('/', async (request, response) => {
@@ -43,7 +44,7 @@ loginRouter.post('/', async (request, response) => {
     // Respondemos con un estado 200 y enviamos el token junto con el nombre de usuario y el nombre del usuario
     response
     .status(200)
-    .send({ token, username: user.username, name: user.name })
+    .send({ token, username: user.username, name: user.name, id: user.id })
 
 
 })

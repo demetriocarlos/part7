@@ -3,9 +3,20 @@ POST http://localhost:3001/api/users
 Content-Type: application/json
  
 
+#{
+    #"username":"iron_man",
+    #"name":"stark",
+    #"password":"starkpassword"
+#}
+
 {
-    "username":"iron_man",
-    "name":"stark",
-    "password":"starkpassword"
+    "username":"sofia gomes",
+    "name":"sofia",
+    "password":"sofiapassword"
 }
+
+
+
+
+
 

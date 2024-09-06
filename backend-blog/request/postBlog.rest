@@ -1,13 +1,15 @@
 
 POST http://localhost:3001/api/blogs
 Content-Type: application/json
-
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJ1c2VybmFtZSI6Imlyb25fbWFuIiwiaWQiOiI2Njg4YTVlNjhmYzhlMDBhNmMwM2RhNGUiLCJpYXQiOjE3MjA2MzIwODB9.EECsue_uTd2Yt9uNuBtI3HU-hznqX_TMiwHxKl0fr5M
 
 
 {
     "title":"parque",
     "author":"lola",
     "url":"https://bogs-chidos-lola",
-    "likes":70,
-    "userId":"6688a5e68fc8e00a6c03da4e"
+    "likes":70
 }
+
+
+# "userId":"6688a5e68fc8e00a6c03da4e"
